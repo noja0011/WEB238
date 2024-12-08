@@ -1,0 +1,100 @@
+/*Nora Jaafar 12/8/2024*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+header, footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+nav a {
+    color: #66ccff;
+    font-size: 1.25rem;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+    padding: 40px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: gray;
+}
+
+.text {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    display: none;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #66ccff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.125rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #33b5cc;
+}
+
+#missions ul {
+    list-style-type: disc;
+    margin: 0px auto;
+    padding-left: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+#missions li {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.news {
+    display: none;
+    margin-top: 20px;
+}
+
+#moonImage {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+#imageDetails {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+#moonImage.zoom {
+    transform: scale(2.0);
+}
